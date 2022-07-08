@@ -28,9 +28,11 @@ jobs:
           name: test-results
           path: test-results.json
           reporter: flutter-json
-      - uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
+      - uses: VeryGoodOpenSource/very_good_coverage@v1
         with:
-          min_coverage: 0
+          path: './coverage/lcov.info'
+          min_coverage: 90
+          exclude: '**/*_observer.dart **/change.dart'
 
   build_ios:
     name: Build Flutter (iOS)
