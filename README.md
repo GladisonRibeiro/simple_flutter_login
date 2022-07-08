@@ -29,7 +29,7 @@ Login no Flutter usando a biblioteca Bloc com base na [documentação](https://b
 
 <br/>
 
-## Dependencias:
+## Dependências:
 
 - flutter_bloc
 - formz
