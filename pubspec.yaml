@@ -37,6 +37,7 @@ dependencies:
   flutter_bloc: ^8.0.1
   formz: ^0.4.1
   equatable: ^2.0.3
+  uuid: ^3.0.6
   authentication_repository:
     path: packages/authentication_repository
   user_repository:
